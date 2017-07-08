@@ -12,3 +12,5 @@ table插件，弹窗使用layer插件，日期选择使用laydate插件。表单
 化数据，可以删除resource目录下的import.sql文件。
 6、系统启动后，访问：127.0.0.1/admin/会自动跳转到后台登录页面。
 7、初始用户名和密码为：admin/111111。
+
+更多信息请查看网址：http://www.bubblyyi.com/2017/07/07/springboot制作图书管理系统一-基本功能介绍/
