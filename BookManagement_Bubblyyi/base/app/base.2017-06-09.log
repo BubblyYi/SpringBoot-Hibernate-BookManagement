@@ -1,0 +1,2 @@
+2017-06-09 00:01:47.104 [RMI TCP Connection(2)-127.0.0.1] DEBUG net.sppan.base.config.listener.ApplicationEventListener - 应用关闭
+2017-06-09 00:01:47.109 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-82} closed

@@ -1,0 +1,1332 @@
+2017-07-07 19:43:41.754 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 初始化环境变量
+2017-07-07 19:43:42.003 [restartedMain] INFO  net.bubblyyi.base.Application - Starting Application on JamesMacBook.local with PID 1126 (started by zhangyi in /Users/zhangyi/Documents/java ee workspace/BookManagement_Bubblyyi)
+2017-07-07 19:43:42.004 [restartedMain] DEBUG net.bubblyyi.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-07-07 19:43:42.005 [restartedMain] INFO  net.bubblyyi.base.Application - No active profile set, falling back to default profiles: default
+2017-07-07 19:43:42.150 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 初始化环境变量完成
+2017-07-07 19:43:42.183 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-07-07 19:43:45.433 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-07-07 19:43:45.471 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-07-07 19:43:45.472 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-07-07 19:43:45.475 [restartedMain] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T/
+2017-07-07 19:43:45.511 [restartedMain] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-07-07 19:43:45.534 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-07-07 19:43:45.648 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-07 19:43:45.649 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-07 19:43:45.649 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-07 19:43:45.665 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-07 19:43:45.666 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-07 19:43:45.667 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-07 19:43:45.669 [restartedMain] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2017-07-07 19:43:45.703 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T
+2017-07-07 19:43:45.704 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T/.ehcache-diskstore.lock
+2017-07-07 19:43:45.704 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2017-07-07 19:43:45.704 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-07 19:43:45.715 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T/resource%0043ache.index
+2017-07-07 19:43:45.716 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-07 19:43:45.761 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-07-07 19:43:45.763 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-07-07 19:43:45.765 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-07-07 19:43:45.765 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-07-07 19:43:45.765 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-07-07 19:43:45.785 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-07-07 19:43:45.787 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-07-07 19:43:45.788 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-07-07 19:43:45.790 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-07-07 19:43:45.791 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-07-07 19:43:45.791 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-07-07 19:43:45.793 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-07-07 19:43:45.794 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-07-07 19:43:45.801 [restartedMain] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2017-07-07 19:43:45.802 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2017-07-07 19:43:45.802 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2017-07-07 19:43:47.179 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-07-07 19:43:47.305 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.307 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.314 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.316 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.319 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.321 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.323 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.326 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.330 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.333 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.335 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.337 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.339 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.342 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.344 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.365 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 15 common frames omitted
+2017-07-07 19:43:47.368 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.370 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.373 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.376 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.378 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.382 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.385 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.388 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.390 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.392 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.400 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.402 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.408 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.412 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:43:47.415 [Druid-ConnectionPool-Create-1756095837] ERROR com.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql://127.0.0.1:3306/ManagementSystemDB?characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1888)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 14 common frames omitted
+2017-07-07 19:44:05.746 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 初始化环境变量
+2017-07-07 19:44:05.898 [restartedMain] INFO  net.bubblyyi.base.Application - Starting Application on JamesMacBook.local with PID 1143 (started by zhangyi in /Users/zhangyi/Documents/java ee workspace/BookManagement_Bubblyyi)
+2017-07-07 19:44:05.899 [restartedMain] DEBUG net.bubblyyi.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-07-07 19:44:05.900 [restartedMain] INFO  net.bubblyyi.base.Application - No active profile set, falling back to default profiles: default
+2017-07-07 19:44:06.027 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 初始化环境变量完成
+2017-07-07 19:44:06.195 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-07-07 19:44:08.408 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-07-07 19:44:08.426 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-07-07 19:44:08.427 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-07-07 19:44:08.428 [restartedMain] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T/
+2017-07-07 19:44:08.448 [restartedMain] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-07-07 19:44:08.461 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-07-07 19:44:08.514 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-07 19:44:08.514 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-07 19:44:08.515 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-07 19:44:08.524 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-07 19:44:08.524 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-07 19:44:08.524 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-07 19:44:08.525 [restartedMain] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2017-07-07 19:44:08.548 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T
+2017-07-07 19:44:08.548 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T/.ehcache-diskstore.lock
+2017-07-07 19:44:08.549 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-07 19:44:08.558 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T/resource%0043ache.index
+2017-07-07 19:44:08.558 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-07 19:44:08.638 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-07-07 19:44:08.640 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-07-07 19:44:08.641 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-07-07 19:44:08.642 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-07-07 19:44:08.642 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-07-07 19:44:08.657 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-07-07 19:44:08.658 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-07-07 19:44:08.658 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-07-07 19:44:08.660 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-07-07 19:44:08.661 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-07-07 19:44:08.661 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-07-07 19:44:08.662 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-07-07 19:44:08.662 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-07-07 19:44:08.671 [restartedMain] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2017-07-07 19:44:08.671 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2017-07-07 19:44:08.671 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2017-07-07 19:44:09.788 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-07-07 19:44:10.383 [restartedMain] WARN  org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): net.bubblyyi.base.entity.BorrowBook
+2017-07-07 19:44:10.383 [restartedMain] WARN  org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): net.bubblyyi.base.entity.BorrowBook
+2017-07-07 19:44:11.952 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2017-07-07 19:44:11.953 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-07-07 19:44:12.074 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-07 19:44:14.833 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 应用刷新
+2017-07-07 19:44:14.846 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2017-07-07 19:44:14.861 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8855]
+2017-07-07 19:44:14.883 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-07 19:44:14.915 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 应用已启动完成
+2017-07-07 19:44:14.917 [restartedMain] INFO  net.bubblyyi.base.Application - Started Application in 9.448 seconds (JVM running for 10.188)
+2017-07-07 19:44:14.917 [restartedMain] DEBUG net.bubblyyi.base.Application - 启动成功
+2017-07-07 19:44:26.485 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-07 19:44:33.126 [http-nio-8855-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_code=?
+2017-07-07 19:44:33.368 [http-nio-8855-exec-7] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:44:33.374 [http-nio-8855-exec-7] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 19:44:33.391 [http-nio-8855-exec-7] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 19:44:33.407 [http-nio-8855-exec-7] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:44:33.414 [http-nio-8855-exec-7] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:44:33.421 [http-nio-8855-exec-7] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:44:34.186 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select count(book0_.book_id) as col_0_0_ from tb_books book0_
+2017-07-07 19:44:34.191 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select book0_.book_id as book_id1_0_, book0_.book_author as book_aut2_0_, book0_.book_inventory as book_inv3_0_, book0_.book_name as book_nam4_0_, book0_.book_press as book_pre5_0_, book0_.current_inventory as current_6_0_ from tb_books book0_ limit ?
+2017-07-07 19:44:54.023 [http-nio-8855-exec-3] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:44:54.026 [http-nio-8855-exec-3] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 19:44:54.028 [http-nio-8855-exec-3] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 19:44:54.037 [http-nio-8855-exec-3] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:44:54.044 [http-nio-8855-exec-3] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:44:54.050 [http-nio-8855-exec-3] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:44:54.578 [http-nio-8855-exec-9] DEBUG org.hibernate.SQL - select count(book0_.book_id) as col_0_0_ from tb_books book0_
+2017-07-07 19:44:54.579 [http-nio-8855-exec-9] DEBUG org.hibernate.SQL - select book0_.book_id as book_id1_0_, book0_.book_author as book_aut2_0_, book0_.book_inventory as book_inv3_0_, book0_.book_name as book_nam4_0_, book0_.book_press as book_pre5_0_, book0_.current_inventory as current_6_0_ from tb_books book0_ limit ?
+2017-07-07 19:49:20.980 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:49:20.982 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 19:49:20.983 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 19:49:20.995 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:49:20.999 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:49:21.005 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 19:49:21.449 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select count(book0_.book_id) as col_0_0_ from tb_books book0_
+2017-07-07 19:49:21.450 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select book0_.book_id as book_id1_0_, book0_.book_author as book_aut2_0_, book0_.book_inventory as book_inv3_0_, book0_.book_name as book_nam4_0_, book0_.book_press as book_pre5_0_, book0_.current_inventory as current_6_0_ from tb_books book0_ limit ?
+2017-07-07 20:00:23.164 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:00:23.167 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:00:23.169 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:00:23.179 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:00:23.184 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:00:23.189 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:00:23.542 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select count(user0_.id) as col_0_0_ from tb_user user0_
+2017-07-07 20:00:23.544 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ limit ?
+2017-07-07 20:00:23.553 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:00:23.557 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:00:23.585 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:00:23.589 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:00:23.591 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:01:20.448 [Thread-7] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 应用关闭
+2017-07-07 20:01:20.471 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-07-07 20:01:20.941 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 初始化环境变量
+2017-07-07 20:01:20.946 [restartedMain] INFO  net.bubblyyi.base.Application - Starting Application on JamesMacBook.local with PID 1143 (started by zhangyi in /Users/zhangyi/Documents/java ee workspace/BookManagement_Bubblyyi)
+2017-07-07 20:01:20.946 [restartedMain] DEBUG net.bubblyyi.base.Application - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-07-07 20:01:20.946 [restartedMain] INFO  net.bubblyyi.base.Application - No active profile set, falling back to default profiles: default
+2017-07-07 20:01:20.951 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 初始化环境变量完成
+2017-07-07 20:01:21.842 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-07-07 20:01:21.846 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-07-07 20:01:21.846 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-07-07 20:01:21.846 [restartedMain] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T/
+2017-07-07 20:01:21.848 [restartedMain] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-07-07 20:01:21.848 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-07-07 20:01:21.850 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-07 20:01:21.851 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-07 20:01:21.851 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-07 20:01:21.853 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-07 20:01:21.853 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-07 20:01:21.853 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-07 20:01:21.853 [restartedMain] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2017-07-07 20:01:21.854 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T
+2017-07-07 20:01:21.854 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T/.ehcache-diskstore.lock
+2017-07-07 20:01:21.854 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2017-07-07 20:01:21.854 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-07 20:01:21.854 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file /var/folders/hx/ffh57rtd0dq4cm10w09pypm80000gn/T/resource%0043ache.index
+2017-07-07 20:01:21.855 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-07 20:01:21.858 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-07-07 20:01:21.859 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-07-07 20:01:21.860 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-07-07 20:01:21.860 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-07-07 20:01:21.861 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-07-07 20:01:21.862 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-07-07 20:01:21.863 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-07-07 20:01:21.863 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-07-07 20:01:21.864 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-07-07 20:01:21.864 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-07-07 20:01:21.865 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-07-07 20:01:21.865 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-07-07 20:01:21.866 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-07-07 20:01:21.868 [restartedMain] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2017-07-07 20:01:21.868 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2017-07-07 20:01:21.868 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2017-07-07 20:01:22.177 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-07-07 20:01:22.243 [restartedMain] WARN  org.hibernate.mapping.RootClass - HHH000038: Composite-id class does not override equals(): net.bubblyyi.base.entity.BorrowBook
+2017-07-07 20:01:22.244 [restartedMain] WARN  org.hibernate.mapping.RootClass - HHH000039: Composite-id class does not override hashCode(): net.bubblyyi.base.entity.BorrowBook
+2017-07-07 20:01:23.345 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2017-07-07 20:01:23.346 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-07-07 20:01:23.354 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-07 20:01:24.858 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 应用刷新
+2017-07-07 20:01:24.866 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8855"]
+2017-07-07 20:01:24.866 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8855]
+2017-07-07 20:01:24.867 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-07 20:01:24.872 [restartedMain] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 应用已启动完成
+2017-07-07 20:01:24.873 [restartedMain] INFO  net.bubblyyi.base.Application - Started Application in 4.008 seconds (JVM running for 1040.105)
+2017-07-07 20:01:24.873 [restartedMain] DEBUG net.bubblyyi.base.Application - 启动成功
+2017-07-07 20:03:13.572 [http-nio-8855-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-07 20:03:13.647 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:03:13.652 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:03:13.664 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:03:13.687 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:03:13.693 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:03:13.698 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:03:14.010 [http-nio-8855-exec-5] DEBUG org.hibernate.SQL - select count(role0_.id) as col_0_0_ from tb_role role0_
+2017-07-07 20:03:14.013 [http-nio-8855-exec-5] DEBUG org.hibernate.SQL - select role0_.id as id1_3_, role0_.create_time as create_t2_3_, role0_.description as descript3_3_, role0_.name as name4_3_, role0_.role_key as role_key5_3_, role0_.status as status6_3_, role0_.update_time as update_t7_3_ from tb_role role0_ limit ?
+2017-07-07 20:03:14.022 [http-nio-8855-exec-5] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:03:14.044 [http-nio-8855-exec-5] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:04:11.418 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select count(book0_.book_id) as col_0_0_ from tb_books book0_
+2017-07-07 20:04:11.421 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select book0_.book_id as book_id1_0_, book0_.book_author as book_aut2_0_, book0_.book_inventory as book_inv3_0_, book0_.book_name as book_nam4_0_, book0_.book_press as book_pre5_0_, book0_.current_inventory as current_6_0_ from tb_books book0_ limit ?
+2017-07-07 20:05:13.263 [http-nio-8855-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:05:13.265 [http-nio-8855-exec-6] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:05:13.267 [http-nio-8855-exec-6] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:05:13.314 [http-nio-8855-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:05:13.318 [http-nio-8855-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:05:13.329 [http-nio-8855-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:05:13.611 [http-nio-8855-exec-3] DEBUG org.hibernate.SQL - select count(resource0_.id) as col_0_0_ from tb_resource resource0_
+2017-07-07 20:05:13.615 [http-nio-8855-exec-3] DEBUG org.hibernate.SQL - select resource0_.id as id1_2_, resource0_.create_time as create_t2_2_, resource0_.description as descript3_2_, resource0_.icon as icon4_2_, resource0_.is_hide as is_hide5_2_, resource0_.level as level6_2_, resource0_.name as name7_2_, resource0_.parent_id as parent_13_2_, resource0_.sort as sort8_2_, resource0_.source_key as source_k9_2_, resource0_.source_url as source_10_2_, resource0_.type as type11_2_, resource0_.update_time as update_12_2_ from tb_resource resource0_ limit ?
+2017-07-07 20:07:11.067 [http-nio-8855-exec-2] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:11.069 [http-nio-8855-exec-2] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:07:11.071 [http-nio-8855-exec-2] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:07:11.078 [http-nio-8855-exec-2] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:11.081 [http-nio-8855-exec-2] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:11.085 [http-nio-8855-exec-2] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:11.642 [http-nio-8855-exec-9] DEBUG org.hibernate.SQL - select count(book0_.book_id) as col_0_0_ from tb_books book0_
+2017-07-07 20:07:11.644 [http-nio-8855-exec-9] DEBUG org.hibernate.SQL - select book0_.book_id as book_id1_0_, book0_.book_author as book_aut2_0_, book0_.book_inventory as book_inv3_0_, book0_.book_name as book_nam4_0_, book0_.book_press as book_pre5_0_, book0_.current_inventory as current_6_0_ from tb_books book0_ limit ?
+2017-07-07 20:07:13.604 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:13.606 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:07:13.607 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:07:13.619 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:13.623 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:13.625 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:13.852 [http-nio-8855-exec-7] DEBUG org.hibernate.SQL - select count(resource0_.id) as col_0_0_ from tb_resource resource0_
+2017-07-07 20:07:13.853 [http-nio-8855-exec-7] DEBUG org.hibernate.SQL - select resource0_.id as id1_2_, resource0_.create_time as create_t2_2_, resource0_.description as descript3_2_, resource0_.icon as icon4_2_, resource0_.is_hide as is_hide5_2_, resource0_.level as level6_2_, resource0_.name as name7_2_, resource0_.parent_id as parent_13_2_, resource0_.sort as sort8_2_, resource0_.source_key as source_k9_2_, resource0_.source_url as source_10_2_, resource0_.type as type11_2_, resource0_.update_time as update_12_2_ from tb_resource resource0_ limit ?
+2017-07-07 20:07:27.759 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:27.761 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:07:27.762 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:07:27.767 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:27.770 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:27.772 [http-nio-8855-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:28.234 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select count(book0_.book_id) as col_0_0_ from tb_books book0_
+2017-07-07 20:07:28.235 [http-nio-8855-exec-8] DEBUG org.hibernate.SQL - select book0_.book_id as book_id1_0_, book0_.book_author as book_aut2_0_, book0_.book_inventory as book_inv3_0_, book0_.book_name as book_nam4_0_, book0_.book_press as book_pre5_0_, book0_.current_inventory as current_6_0_ from tb_books book0_ limit ?
+2017-07-07 20:07:30.046 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select count(book0_.book_id) as col_0_0_ from tb_books book0_
+2017-07-07 20:07:30.050 [http-nio-8855-exec-10] DEBUG org.hibernate.SQL - select book0_.book_id as book_id1_0_, book0_.book_author as book_aut2_0_, book0_.book_inventory as book_inv3_0_, book0_.book_name as book_nam4_0_, book0_.book_press as book_pre5_0_, book0_.current_inventory as current_6_0_ from tb_books book0_ limit ?
+2017-07-07 20:07:30.711 [http-nio-8855-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:30.713 [http-nio-8855-exec-4] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_6_0_, roles0_.role_id as role_id2_6_0_, role1_.id as id1_3_1_, role1_.create_time as create_t2_3_1_, role1_.description as descript3_3_1_, role1_.name as name4_3_1_, role1_.role_key as role_key5_3_1_, role1_.status as status6_3_1_, role1_.update_time as update_t7_3_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2017-07-07 20:07:30.714 [http-nio-8855-exec-4] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_4_0_, resources0_.resource_id as resource2_4_0_, resource1_.id as id1_2_1_, resource1_.create_time as create_t2_2_1_, resource1_.description as descript3_2_1_, resource1_.icon as icon4_2_1_, resource1_.is_hide as is_hide5_2_1_, resource1_.level as level6_2_1_, resource1_.name as name7_2_1_, resource1_.parent_id as parent_13_2_1_, resource1_.sort as sort8_2_1_, resource1_.source_key as source_k9_2_1_, resource1_.source_url as source_10_2_1_, resource1_.type as type11_2_1_, resource1_.update_time as update_12_2_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2017-07-07 20:07:30.730 [http-nio-8855-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:30.734 [http-nio-8855-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:30.738 [http-nio-8855-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_5_, user0_.create_time as create_t2_5_, user0_.delete_status as delete_s3_5_, user0_.locked as locked4_5_, user0_.password as password5_5_, user0_.telephone as telephon6_5_, user0_.update_time as update_t7_5_, user0_.user_code as user_cod8_5_, user0_.user_name as user_nam9_5_ from tb_user user0_ where user0_.user_name=?
+2017-07-07 20:07:31.080 [http-nio-8855-exec-6] DEBUG org.hibernate.SQL - select count(resource0_.id) as col_0_0_ from tb_resource resource0_
+2017-07-07 20:07:31.081 [http-nio-8855-exec-6] DEBUG org.hibernate.SQL - select resource0_.id as id1_2_, resource0_.create_time as create_t2_2_, resource0_.description as descript3_2_, resource0_.icon as icon4_2_, resource0_.is_hide as is_hide5_2_, resource0_.level as level6_2_, resource0_.name as name7_2_, resource0_.parent_id as parent_13_2_, resource0_.sort as sort8_2_, resource0_.source_key as source_k9_2_, resource0_.source_url as source_10_2_, resource0_.type as type11_2_, resource0_.update_time as update_12_2_ from tb_resource resource0_ limit ?
+2017-07-07 20:25:55.517 [RMI TCP Connection(2)-127.0.0.1] DEBUG net.bubblyyi.base.config.listener.ApplicationEventListener - 应用关闭
+2017-07-07 20:25:55.524 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed

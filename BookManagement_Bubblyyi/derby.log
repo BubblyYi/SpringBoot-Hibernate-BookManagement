@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Jun 27 11:01:32 CST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-015c-e77f-339f-0000206179e8 
+on database directory memory:/Users/zhangyi/Documents/java ee workspace/springboot_authority-master/testdb with class loader sun.misc.Launcher$ExtClassLoader@17d10166 
+Loaded from file:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_91-b14
+user.dir=/Users/zhangyi/Documents/java ee workspace/springboot_authority-master
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.12.5
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
