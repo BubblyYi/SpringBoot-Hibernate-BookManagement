@@ -14,7 +14,7 @@ table插件，弹窗使用layer插件，日期选择使用laydate插件。表单
   2）把application.properties中的数据库连接信息修改成自己数据库的连接信息。
   3）修改spring.jpa.hibernate.ddl-auto为create，目的是让系统自动建表同时初始化相关集成数据。如果不需要自动初始化数据，可以删除resource目录下的import.sql文件。
 
-6、系统启动后，访问：127.0.0.1/admin/会自动跳转到后台登录页面。
+6、系统启动后，访问：http://localhost:8855/admin 会自动跳转到后台登录页面。
 
 7、初始用户名和密码为：admin/111111。
 
